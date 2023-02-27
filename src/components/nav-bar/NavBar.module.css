@@ -1,0 +1,16 @@
+.main {
+  background-color: rgb(74, 74, 74);
+}
+
+.navLink {
+  color: rgb(250, 40, 40);
+}
+
+.navLink:hover {
+  color: rgb(156, 154, 154);
+  transform: scale(1.1);
+}
+
+.navLinks {
+  color: rgb(202, 200, 200);
+}/*# sourceMappingURL=NavBar.module.css.map */

@@ -1,0 +1,40 @@
+.title{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: rgb(131, 61, 145);
+}
+
+.favoriteBtn {
+    color: red;
+    &:hover {
+    color: red;
+    transform: scale(1.2);
+    }
+}
+
+.desTitle {
+    text-decoration: underline;
+    color: rgb(156, 57, 176);
+}
+
+.statistics {
+    text-align: center;
+    h3{
+        text-decoration: underline;
+        color: rgb(156, 57, 176);
+    }
+    div {
+        margin: 15px 0px;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+}
+
+.backBtn {
+    color: rgb(156, 57, 176);
+    &:hover{
+        color: rgb(156, 57, 176);
+    }
+}

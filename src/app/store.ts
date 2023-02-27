@@ -1,9 +1,11 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import VideoReducer from "../features/videos/videosSlice";
+import sponserReducer from "../features/sponsers/sponserSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    videos: VideoReducer,
+    sponsers: sponserReducer,
   },
 });
 

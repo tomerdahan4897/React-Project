@@ -1,0 +1,32 @@
+.visitBtn{
+    width: 85px;
+    position:absolute;
+    bottom: 0;
+    margin: 20px 36%;
+}
+
+.editButton {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 40px !important;
+    font-size: 0.7rem;
+    border: 2px solid black;
+    &:hover {
+            transform: scale(1.1);
+            border: 2px solid black;
+        }
+}
+
+.removeButton {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 40px !important;
+    font-size: 0.7rem;
+    border: 2px solid black;
+    &:hover{
+        transform: scale(1.1);
+        border: 2px solid black;
+    }
+}

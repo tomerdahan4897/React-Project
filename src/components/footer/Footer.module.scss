@@ -1,0 +1,51 @@
+.mainFooter{
+    background-color: rgb(74, 74, 74);
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.infoDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.emailP, .phoneP, .linedIn {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.linkedInSymbol {
+    color:white;
+
+    &:hover{
+        color:rgb(235, 235, 235);
+    }
+}
+
+.rights {
+            font-weight: bold;
+            font-size: 0.8;
+            margin-bottom: 20px;
+        }
+
+
+@media (max-width: 700px){
+    .infoDiv{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+    }
+}

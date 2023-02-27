@@ -1,0 +1,82 @@
+.main {
+    background-color: rgb(74, 74, 74) ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    font-weight: bold;
+}
+
+.navLink{
+    color:rgb(250, 40, 40);
+    transition: all 0.2s ease-in-out;
+}
+
+.navLink:hover{
+    color:rgb(156, 154, 154);
+    transform: scale(1.1);
+}
+
+/* .navLinks {
+    color: rgb(202, 200, 200) ;
+} */
+
+#homeLink, #aboutLink, #favoritesLink {
+     transition: all 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.15);
+        color:rgb(215, 123, 231) !important;
+    }
+}
+.coll {
+    display: flex;
+    flex-direction: row;
+    gap: 190%;
+}
+
+.links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.social{
+    justify-self: flex-end;
+    .soc {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            transform: scale(1.15);
+            color:rgb(215, 123, 231) !important;
+        }
+    }
+}
+
+
+@media (max-width:991px) {
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .coll {
+        display: flex;
+        flex-direction: column;
+    }
+    .social {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .coll {
+        gap: 140%
+    }
+}
+
+@media (max-width: 1200px) {
+    .coll {
+        gap: 100%;
+    }
+}
+

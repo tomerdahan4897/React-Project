@@ -1,0 +1,34 @@
+
+.mainCard {
+background-color: rgb(206, 206, 206);
+margin: 0px 20px;
+}
+
+//mixin ~ scss function with params
+ @mixin line-clamp($numLines : 1, $lineHeight: 1.412) {
+     overflow: hidden;
+     text-overflow: -o-ellipsis-lastline;
+     text-overflow: ellipsis;
+     display: block;
+     display: -webkit-box;
+     -webkit-line-clamp: $numLines;
+     -webkit-box-orient: vertical;
+     max-height: $numLines * $lineHeight + unquote('em');
+     text-align: justify;
+     text-justify: distribute;
+ }
+
+ .title {
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+     width: 50%;
+     @include line-clamp($numLines: 2, $lineHeight: 2);
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ .link {
+     text-decoration: none;
+    font-size: xx-large; 
+     font-style: italic;
+ }

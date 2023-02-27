@@ -1,0 +1,27 @@
+.favoriteBtn {
+  color: red;
+}
+.favoriteBtn:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.statistics {
+  text-align: center;
+}
+.statistics h3 {
+  text-decoration: underline;
+}
+.statistics div {
+  margin: 15px 0px;
+}
+.statistics h4 {
+  text-align: center;
+}
+
+.backBtn {
+  color: rgb(60, 102, 255);
+}
+.backBtn:hover {
+  color: rgb(60, 102, 255);
+}/*# sourceMappingURL=VideoDetails.module.css.map */
